@@ -9,12 +9,12 @@
 Summary:	Net::Traceroute perl module
 Summary(pl):	Modu³ perla Net::Traceroute
 Name:		perl-Net-Traceroute
-Version:	1.07
-Release:	2
+Version:	1.08
+Release:	1
 License:	MIT
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	6423aaa1798b60bc4c558710d5283581
+# Source0-md5:	1960636afce15a1c73d9640287cf9b1d
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Net-ext
