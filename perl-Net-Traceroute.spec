@@ -2,8 +2,8 @@
 Summary:	Net-Traceroute perl module
 Summary(pl):	Modu³ perla Net-Traceroute
 Name:		perl-Net-Traceroute
-Version:	1.02
-Release:	2
+Version:	1.03
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
