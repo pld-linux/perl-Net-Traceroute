@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Traceroute
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net-Traceroute perl module
 Summary(pl):	Modu³ perla Net-Traceroute
 Name:		perl-Net-Traceroute
 Version:	1.05
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Net-Traceroute - traceroute(1) functionality in perl.
 Net-Traceroute - traceroute(1) dla perla.
 
 %prep
-%setup -q -n Net-Traceroute-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
