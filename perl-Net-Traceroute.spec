@@ -7,7 +7,7 @@
 %define	pdir	Net
 %define	pnam	Traceroute
 Summary:	Net::Traceroute perl module
-Summary(pl):	Modu³ perla Net::Traceroute
+Summary(pl):	Modu³ Perla Net::Traceroute
 Name:		perl-Net-Traceroute
 Version:	1.08
 Release:	1
@@ -29,7 +29,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Net::Traceroute - traceroute(1) functionality in perl.
 
 %description -l pl
-Net::Traceroute - traceroute(1) dla perla.
+Net::Traceroute - traceroute(1) dla Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
