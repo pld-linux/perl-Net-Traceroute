@@ -4,8 +4,8 @@
 			# require traceroute program access
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	Traceroute
+%define		pdir	Net
+%define		pnam	Traceroute
 Summary:	Net::Traceroute perl module
 Summary(pl):	Modu³ Perla Net::Traceroute
 Name:		perl-Net-Traceroute
