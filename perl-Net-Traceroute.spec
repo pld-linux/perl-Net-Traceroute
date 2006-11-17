@@ -52,6 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc ChangeLog README TODO
 %{perl_vendorlib}/Net/Traceroute.pm
 %{_mandir}/man3/*
