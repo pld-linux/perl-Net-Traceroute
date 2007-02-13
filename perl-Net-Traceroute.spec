@@ -7,7 +7,7 @@
 %define		pdir	Net
 %define		pnam	Traceroute
 Summary:	Net::Traceroute perl module
-Summary(pl.UTF-8):   Moduł Perla Net::Traceroute
+Summary(pl.UTF-8):	Moduł Perla Net::Traceroute
 Name:		perl-Net-Traceroute
 Version:	1.09
 Release:	1
