@@ -6,15 +6,16 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	Traceroute
-Summary:	Net::Traceroute perl module
-Summary(pl.UTF-8):	Moduł Perla Net::Traceroute
+Summary:	Net::Traceroute - traceroute(1) functionality in Perl
+Summary(pl.UTF-8):	Net::Traceroute - traceroute(1) dla Perla
 Name:		perl-Net-Traceroute
 Version:	1.10
 Release:	1
 License:	MIT
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a9344803cd997071b23136d39877005d
+URL:		http://search.cpan.org/dist/Net-Traceroute/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Net-ext
@@ -26,7 +27,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net::Traceroute - traceroute(1) functionality in perl.
+Net::Traceroute - traceroute(1) functionality in Perl.
 
 %description -l pl.UTF-8
 Net::Traceroute - traceroute(1) dla Perla.
