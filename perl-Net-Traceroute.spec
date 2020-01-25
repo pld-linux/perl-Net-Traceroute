@@ -3,7 +3,6 @@
 %bcond_with	tests	# perform "make test" (uses network!)
 			# require traceroute program access
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	Traceroute
 Summary:	Net::Traceroute - traceroute(1) functionality in Perl
